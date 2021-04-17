@@ -6,6 +6,10 @@ body {
     background-size: cover;
 }
 
+.main-container-border {
+    border: 1px solid #1a0101 !important;
+}
+
 .avatar-img {
     width: 200px;
 }
@@ -59,5 +63,40 @@ a {
 }
 
 .content-img-border {
-    border: 4px solid black;
+    border: 4px solid #960018;
+}
+
+
+/* Grid */
+.grid-item { 
+    width: 24.5%;
+}
+
+.grid-item--width2 { 
+    width: 49%; 
+}
+
+.showcase-image {
+    width: 100%;
+}
+
+/* Modal */
+.fullscreen-showcase-image {
+    height: 96.3vh;
+}
+
+.modal-body-border {
+    border: 2px solid #960018;
+}
+
+.bg-modal-image {
+    background-color: #161616;
+}
+
+.close-button {
+	transition: 0.3s;
+}
+
+.close-button:hover {
+    color: red !important;
 }
