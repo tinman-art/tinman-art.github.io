@@ -1,8 +1,7 @@
--- Todos
+# To-dos
 
-Zoom
-- https://codepen.io/galulex/pen/eNZRVq
-- arrumar grid do ISOTOPE
+- Opção para ajustar o Zoom https://codepen.io/galulex/pen/eNZRVq das modais de forma que elas possam ser mais facilmente examinadas pelos olhos dos visitantes do portfolio como se fosse a chegada dos portugueses quando invadiram o brasil atrás das indias nativas tupiniquins.
+- arrumar grid do ISOTOPE e alinhamento da Navbar que estragou por causa da flechinha de voltar deixando de forma desalinhada o texto com o icone, falta simetria como as pinturas cubistas de pablo picasso.
 - Configurar Tags dos posts na modal para ficarem na parte inferior direita dentro de pequenas caixas cinza escuro com a fonte branca, de preferencia na roboto.
 - Configurar sistema de filtragem onde as tags fiquem organizadas, tags: Adobe Photoshop, Adobe Ilustrator, Fanart, Comission, Original creation, Autodesk Sketchbook
-- Configurar menu para comissions
+- Configurar menu para comissions.
