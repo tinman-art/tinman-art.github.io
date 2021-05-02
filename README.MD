@@ -5,3 +5,4 @@
 - Configurar Tags dos posts na modal para ficarem na parte inferior direita dentro de pequenas caixas cinza escuro com a fonte branca, de preferencia na roboto.
 - Configurar sistema de filtragem onde as tags fiquem organizadas, tags: Adobe Photoshop, Adobe Ilustrator, Fanart, Comission, Original creation, Autodesk Sketchbook
 - Configurar menu para comissions.
+- Configurar setas apotando para a esquerda e para a direita de forma que seja criado uma transição suave entre as fotos da galeria, como se fosse uma linda exposição no museu do louvre na frança que abriga as melhores obras de arte como a "Monalisa" de Leonardo Davinci.
