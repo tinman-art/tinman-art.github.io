@@ -7,3 +7,4 @@
 - Configurar menu para comissions.
 - Configurar setas apotando para a esquerda e para a direita de forma que seja criado uma transição suave entre as fotos da galeria, como se fosse uma linda exposição no museu do louvre na frança que abriga as melhores obras de arte como a "Monalisa" de Leonardo Davinci.
 - Criar um sistema de datas nas modais de forma que possamos caracterizar em qual ponto do espaço tempo continuo foram criadas as artes assim como os paleontologistas conseguem datar pelo metodo cientifico chamado datação de carbono que analisa o decaimento radioativo do material para determinar quando foi originado.
+- Ajustar o tamanho da area de titulo e descrição das postagens, desta forma caberão mais informações utilizando bem menos espaço, assim como quando foi criada a prensa de gutenberg que possibilitou a impressão dos primeiros livros.
