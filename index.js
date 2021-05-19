@@ -3,7 +3,7 @@ function initGridDesign() {
 	var iso2 = new Isotope('#gridDesign', {
 		// options
 		itemSelector: '.grid-item',
-		layoutMode: 'fitRows'
+		layoutMode: 'masonry'
 	});
 	window.dispatchEvent(new Event('resize'));
 }
