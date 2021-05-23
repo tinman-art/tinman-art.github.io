@@ -9,6 +9,6 @@
 - ~~Ajustar o tamanho da area de titulo e descrição das postagens, desta forma caberão mais informações utilizando bem menos espaço, assim como quando foi criada a prensa de gutenberg que possibilitou a impressão dos primeiros livros.~~
 
 ● Secundarios
-- Opção para ajustar o Zoom https://codepen.io/galulex/pen/eNZRVq das modais de forma que elas possam ser mais facilmente examinadas pelos olhos dos visitantes do portfolio como se fosse a chegada dos portugueses quando invadiram o brasil atrás das indias nativas tupiniquins.
+- ~~Opção para ajustar o Zoom https://codepen.io/galulex/pen/eNZRVq das modais de forma que elas possam ser mais facilmente examinadas pelos olhos dos visitantes do portfolio como se fosse a chegada dos portugueses quando invadiram o brasil atrás das indias nativas tupiniquins.~~
 - Configurar sistema de filtragem onde as tags fiquem organizadas, tags: Adobe Photoshop, Adobe Ilustrator, Fanart, Comission, Original creation, Autodesk Sketchbook
 - Configurar menu para comissions.
