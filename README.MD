@@ -11,4 +11,4 @@
 ● Secundarios
 - ~~Opção para ajustar o Zoom https://codepen.io/galulex/pen/eNZRVq das modais de forma que elas possam ser mais facilmente examinadas pelos olhos dos visitantes do portfolio como se fosse a chegada dos portugueses quando invadiram o brasil atrás das indias nativas tupiniquins.~~
 - Configurar sistema de filtragem onde as tags fiquem organizadas, tags: Adobe Photoshop, Adobe Ilustrator, Fanart, Comission, Original creation, Autodesk Sketchbook
-- Configurar menu para comissions.
+- ~~Configurar menu para comissions.~~
