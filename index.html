@@ -30,8 +30,11 @@
 			<!-- Profile Card -->
 
 			<div class="col-md-2 card bg-light h-100">
-				<img class="rounded img-fluid avatar-img mx-auto mt-4" src="resources/images/3.jpg"
-					alt="Tinman Profile Picture">
+				<div class="row justify-content-center">
+					<div class="profile-easteregg mt-4 avatar-img round" style="padding: 0; margin: 0;">
+						<img id="profile-picture" class="w-100 rounded" src="resources/images/3.jpg" alt="Tinman Profile Picture">
+					</div>
+				</div>
 				<p class="profile-font-strong mt-2 text-center" style="font-size: 30px;">Gabriel Boriça, 23</p>
 				<hr style="margin: 2px;">
 				<p class="text-center mt-2 profile-font text-secondary">Estudante de design gráfico que almeja algum dia
@@ -116,18 +119,36 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<div class="row ps-3">
-									<div class="col-md-10 bg-modal-image modal-body-border">
+									<div class="col-md-9 bg-modal-image modal-body-border">
 										<center>
 											<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/dehxcen-4de0b355-5e30-4069-9db3-98e5ea743236.jpg/v1/fill/w_1280,h_1280,q_75,strp/logo_tinman_by_tinman_art_dehxcen-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzY2MTg4ZjI3LWVmYTItNGJiOS05OGNmLWIyNTQ2ZTRiNWEwN1wvZGVoeGNlbi00ZGUwYjM1NS01ZTMwLTQwNjktOWRiMy05OGU1ZWE3NDMyMzYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.UpAxaKorl_8f95RfsPYay5TxFFteMvcNRJRhbP6ITa4" alt="">
 										</center>
 									</div>
-									<div class="col-md-2">
-										<div class="row">
-											<div class="col-md-12 d-flex justify-content-end">
-												<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+									<div class="col-md-3 flex-direction-column">
+										<div class="col-md-12 d-flex justify-content-end">
+											<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-12">
+													<h1>● Tinman ART</h1>
+												</div>
+												<div class="col-12">
+													<span class="badge bg-danger">Personal Illustration</span>
+													<span class="badge bg-danger">Adobe Ilustrator</span>
+												</div>
+												<div class="col-12 mt-3">
+													<div class="card text-white bg-dark mb-3">
+														<div class="card-body">
+															<p class="card-text modal-description-font">Logo feita para ser usado no portfolio e na maior parte dos anuncios feitos pras minhas artes.</p>
+														</div>
+													</div>
+												</div>
 											</div>
-											<div class="col-md-12">
-												<h1>●Tinman ART</h1>
+										</div>
+										<div class="row" style="margin-top: auto;">
+											<div class="col d-flex justify-content-end">
+												<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">14.04.2021</span></p>
 											</div>
 										</div>
 									</div>
@@ -142,18 +163,35 @@
 						<div class="modal-content">
 							<div class="modal-body">
 								<div class="row ps-3">
-									<div class="col-md-10 bg-modal-image modal-body-border">
+									<div class="col-md-9 bg-modal-image modal-body-border">
 										<center>
 											<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/dei3ndy-9171995c-f59c-4e74-899f-a34e29f94af9.jpg/v1/fill/w_1280,h_1280,q_75,strp/logo_wip_by_tinman_art_dei3ndy-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzY2MTg4ZjI3LWVmYTItNGJiOS05OGNmLWIyNTQ2ZTRiNWEwN1wvZGVpM25keS05MTcxOTk1Yy1mNTljLTRlNzQtODk5Zi1hMzRlMjlmOTRhZjkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.VrV9uZ0Tgby8os0KcCQw_LGUctw6Tie7_tDn1_aQ5ow" alt="">
 										</center>
 									</div>
-									<div class="col-md-2">
-										<div class="row">
-											<div class="col-md-12 d-flex justify-content-end">
-												<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+									<div class="col-md-3 flex-direction-column">
+										<div class="col-md-12 d-flex justify-content-end">
+											<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+										</div>
+										<div class="col-md-12">
+											<div class="row">
+												<div class="col-12">
+													<h1>● Secretaria de Turismo Curitiba</h1>
+												</div>
+												<div class="col-12">
+													<span class="badge bg-danger">Adobe Ilustrator</span>
+												</div>
+												<div class="col-12 mt-3">
+													<div class="card text-white bg-dark mb-3">
+														<div class="card-body">
+															<p class="card-text modal-description-font">Logo feita para um trabalho da faculdade, o intuito era criar um simbolo para ficticia "secretaria de turismos de curitiba"</p>
+														</div>
+													</div>
+												</div>
 											</div>
-											<div class="col-md-12">
-												<h1>●Secretaria de Turismo Curitiba</h1>
+										</div>
+										<div class="row" style="margin-top: auto;">
+											<div class="col d-flex justify-content-end">
+												<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">27.11.2020</span></p>
 											</div>
 										</div>
 									</div>
@@ -209,25 +247,38 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/deivwe8-ac180ded-89d3-4b09-8cbd-442011e43ee0.jpg/v1/fill/w_1280,h_1297,q_75,strp/tinman_says_hi_by_tinman_art_deivwe8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI5NyIsInBhdGgiOiJcL2ZcLzY2MTg4ZjI3LWVmYTItNGJiOS05OGNmLWIyNTQ2ZTRiNWEwN1wvZGVpdndlOC1hYzE4MGRlZC04OWQzLTRiMDktOGNiZC00NDIwMTFlNDNlZTAuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.w-r-5LZtaMRrJOTL_B0QozkMjqP9ARAHm15eLwgGcKc" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
+							<div class="col-md-3 flex-direction-column">
 								<div class="row">
 									<div class="col-md-12 d-flex justify-content-end">
 										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
 									</div>
 									<div class="col-md-12">
-										<h1>● Tinman says hi</h1>
+										<div class="row">
+											<div class="col-12">
+												<h1>● Tinman says hi</h1>
+											</div>
+											<div class="col-12">
+												<span class="badge bg-danger">Personal Illustration</span>
+												<span class="badge bg-danger">Adobe Photoshop</span>
+											</div>
+											<div class="col-12 mt-3">
+												<div class="card text-white bg-dark mb-3">
+													<div class="card-body">
+														<p class="card-text modal-description-font">Ilustração do meu mascote Tinman que eu fiz para intercalar com a imagem de perfil.</p>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">02.05.2021</span></p>
 									</div>
 								</div>
 							</div>
@@ -242,25 +293,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/dei3msr-22003979-925c-49ea-9876-266752996b71.jpg/v1/fill/w_1280,h_1280,q_75,strp/kane_and_his_ghost_follower_oleg_by_tinman_art_dei3msr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzY2MTg4ZjI3LWVmYTItNGJiOS05OGNmLWIyNTQ2ZTRiNWEwN1wvZGVpM21zci0yMjAwMzk3OS05MjVjLTQ5ZWEtOTg3Ni0yNjY3NTI5OTZiNzEuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SjPzvqLfYcl561cNMWMeSrlSJcAd7OzH0wHn8tG6i2A" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Kane, the best of the worst</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Kane, the best of the worst</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Personal Illustration</span>
+											<span class="badge bg-danger">Adobe Photoshop</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Ilustração do meu "Whisper" do rpg de mesa blades in the dark.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">19.04.2021</span></p>
 									</div>
 								</div>
 							</div>
@@ -275,25 +337,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/dege2je-5db6e400-89c2-4b4e-8568-dce61b16b739.jpg/v1/fill/w_1280,h_906,q_75,strp/fate_x_persona_by_tinman_art_dege2je-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD05MDYiLCJwYXRoIjoiXC9mXC82NjE4OGYyNy1lZmEyLTRiYjktOThjZi1iMjU0NmU0YjVhMDdcL2RlZ2UyamUtNWRiNmU0MDAtODljMi00YjRlLTg1NjgtZGNlNjFiMTZiNzM5LmpwZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.YiCuXiNetZMcEAl0CszJHJjgU09UeuIA5u4oncxIsFM" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Persona X Fate</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Persona X Fate</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Fanart</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Este é um poster que desenhei para um amigo, um crossover entre duas das suas franquias favoritas, persona e fate.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">22.03.2021</span></p>
 									</div>
 								</div>
 							</div>
@@ -308,25 +381,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/dec7hp5-655c70bb-dd32-4aeb-9bb1-11fff879031e.jpg/v1/fill/w_1280,h_1280,q_75,strp/octopuss_knight_by_tinman_art_dec7hp5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjgwIiwicGF0aCI6IlwvZlwvNjYxODhmMjctZWZhMi00YmI5LTk4Y2YtYjI1NDZlNGI1YTA3XC9kZWM3aHA1LTY1NWM3MGJiLWRkMzItNGFlYi05YmIxLTExZmZmODc5MDMxZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Yyx23Pa4GeXiniBQdcAeifsorsSEulxmK26qXhqx6o4" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Octopus Knight</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Octopus Knight</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Personal Illustration</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Um dos meus desenhos do inktober 2020 que recriei digitalmente pois estava curiosos para ver como ele ficaria colorido.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">13.01.2021</span></p>
 									</div>
 								</div>
 							</div>
@@ -341,25 +425,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/de5yzte-dd24d711-cf96-461e-8b0b-7ad9b3ce8238.jpg/v1/fill/w_1280,h_1280,q_75,strp/rhaoul_x_vanadis_by_tinman_art_de5yzte-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjgwIiwicGF0aCI6IlwvZlwvNjYxODhmMjctZWZhMi00YmI5LTk4Y2YtYjI1NDZlNGI1YTA3XC9kZTV5enRlLWRkMjRkNzExLWNmOTYtNDYxZS04YjBiLTdhZDliM2NlODIzOC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Or7STcOTJjgXKCeKWuV8yx46EylSba0nHDTXPwNKyA0" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Rhaoul and Vanadis</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Rhaoul and Vanadis</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Fanart</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Uma fanart dos personas Rhaoul e Vanadis do persona 5 golden.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">29.09.2020</span></p>
 									</div>
 								</div>
 							</div>
@@ -374,25 +469,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/de5gj3o-0370fb9b-f430-4544-a2a9-a07607b2321f.jpg/v1/fill/w_1280,h_2194,q_75,strp/0___the_fool__finn__by_tinman_art_de5gj3o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yMTk0IiwicGF0aCI6IlwvZlwvNjYxODhmMjctZWZhMi00YmI5LTk4Y2YtYjI1NDZlNGI1YTA3XC9kZTVnajNvLTAzNzBmYjliLWY0MzAtNDU0NC1hMmE5LWEwNzYwN2IyMzIxZi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.d7T6QGKCs_2iduW_61JhSi9y_xk_gGPgE8jkjOvZqfY" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● The fool</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● The fool</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Fanart</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">A primeira carta de tarô, "o tolo" como finn e jake de hora de aventura.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">20.09.2020</span></p>
 									</div>
 								</div>
 							</div>
@@ -407,25 +513,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/dehxcp9-27607e0a-7e4f-4649-b7ec-85e2d361ad7b.jpg/v1/fill/w_1280,h_1698,q_75,strp/tiago_by_tinman_art_dehxcp9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNjk4IiwicGF0aCI6IlwvZlwvNjYxODhmMjctZWZhMi00YmI5LTk4Y2YtYjI1NDZlNGI1YTA3XC9kZWh4Y3A5LTI3NjA3ZTBhLTdlNGYtNDY0OS1iN2VjLTg1ZTJkMzYxYWQ3Yi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wl1KU70FtJHldsItWxOo_kmzEEUVNMfoVPzFISn8wQ0" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Tiago Poke Team</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Tiago Poke Team</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Fanart</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Um poster que desenhei para meu primo, é ele e seus pokemons favoritos.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">20.09.2020</span></p>
 									</div>
 								</div>
 							</div>
@@ -440,25 +557,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/de467mw-d914ea5a-2ce6-4d73-ae04-790760c85a82.jpg/v1/fill/w_1280,h_1588,q_75,strp/jack_bros_by_tinman_art_de467mw-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNTg4IiwicGF0aCI6IlwvZlwvNjYxODhmMjctZWZhMi00YmI5LTk4Y2YtYjI1NDZlNGI1YTA3XC9kZTQ2N213LWQ5MTRlYTVhLTJjZTYtNGQ3My1hZTA0LTc5MDc2MGM4NWE4Mi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FmQBLxV4TjE552wDw-Ewgiv7liIbir1Q-sOKLa82Bfs" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Jack Brothers</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Jack Brothers</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Fanart</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Uma fanart dos personagens Jack Frost, Pyro Jack e Jack Ripper do jogo Jack Brothers.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">29.08.2020</span></p>
 									</div>
 								</div>
 							</div>
@@ -474,25 +602,36 @@
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="row ps-3">
-							<div class="col-md-10 bg-modal-image modal-body-border">
+							<div class="col-md-9 bg-modal-image modal-body-border">
 								<center>
 									<img class="fullscreen-showcase-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/66188f27-efa2-4bb9-98cf-b2546e4b5a07/de4693s-fb98eb99-f304-4ed4-80ec-90ea7e7b53c1.jpg/v1/fill/w_1280,h_2276,q_75,strp/michiru_by_tinman_art_de4693s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yMjc2IiwicGF0aCI6IlwvZlwvNjYxODhmMjctZWZhMi00YmI5LTk4Y2YtYjI1NDZlNGI1YTA3XC9kZTQ2OTNzLWZiOThlYjk5LWYzMDQtNGVkNC04MGVjLTkwZWE3ZTdiNTNjMS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.gVydQAeVTHpy9-DP2rCSZP2hhUvuoIzX0dzUEtpc4UA" alt="">
 								</center>
 							</div>
-							<div class="col-md-2">
-								<div class="row">
-									<div class="col-md-12 d-flex justify-content-end">
-										<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
-									</div>
-									<div class="col-md-12">
-										<h1>● Michiru</h1>
+							<div class="col-md-3 flex-direction-column">
+								<div class="col-md-12 d-flex justify-content-end">
+									<a data-bs-dismiss="modal" class="pointer text-dark" aria-label="Close"><ion-icon class="close-button" name="close-circle-outline" size="large"></ion-icon></a>
+								</div>
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-12">
+											<h1>● Michiru</h1>
+										</div>
+										<div class="col-12">
+											<span class="badge bg-danger">Fanart</span>
+											<span class="badge bg-danger">Autodesk Sketchbook</span>
+										</div>
+										<div class="col-12 mt-3">
+											<div class="card text-white bg-dark mb-3">
+												<div class="card-body">
+													<p class="card-text modal-description-font">Fanart da personagem Michiru Kagemori do anime BNA.</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="row p4">
-									<div class="col"><span class="badge bg-secondary">#AdobeIllustrator</span>
-										<span class="badge bg-secondary">#AdobePhotoshop</span>
-										<span class="badge bg-secondary">#AutoCAD</span>
-										<span class="badge bg-secondary">#GIMP</span>
+								<div class="row" style="margin-top: auto;">
+									<div class="col d-flex justify-content-end">
+										<p class="no-margin" style="display: inline;"><span class="badge bg-dark fs-14">05.07.2020</span></p>
 									</div>
 								</div>
 							</div>

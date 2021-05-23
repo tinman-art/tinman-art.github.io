@@ -17,6 +17,12 @@ function initGridIlustration() {
 	window.dispatchEvent(new Event('resize'));
 }
 
+$(".profile-easteregg").hover(function(){
+    $("#profile-picture").fadeOut(1000);
+    console.log("MouseIn");
+}, function(){
+    $("#profile-picture").fadeIn(1000);
+});
 
 let modal = new bootstrap.Modal(document.getElementById("modal-7"));
 
