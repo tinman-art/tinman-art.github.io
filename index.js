@@ -1,3 +1,6 @@
+$(document).ready(function(){
+	$('.zoom').zoom();
+});
 
 function initGridDesign() {
 	var iso2 = new Isotope('#gridDesign', {
@@ -19,7 +22,6 @@ function initGridIlustration() {
 
 $(".profile-easteregg").hover(function(){
     $("#profile-picture").fadeOut(1000);
-    console.log("MouseIn");
 }, function(){
     $("#profile-picture").fadeIn(1000);
 });
@@ -28,6 +30,12 @@ let modal = new bootstrap.Modal(document.getElementById("modal-7"));
 
 function openModal() {
 	modal.show();
+}
+
+function trocaTroca(closeCurrentModal, openNextModal) {	
+	$('#'+closeCurrentModal).modal('hide'); 
+	let myModal2 = new bootstrap.Modal(document.getElementById(openNextModal));
+	setTimeout(()=>{myModal2.show();}, 150);
 }
 
 let imagesAnimateTime = 0150;
