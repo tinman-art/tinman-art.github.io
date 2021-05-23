@@ -141,3 +141,8 @@ a {
 .navigation-arrow-opacity:hover {
     opacity: 1.0;
 }
+
+.comission-img {
+    height: 100%;
+    width: 100%;
+}

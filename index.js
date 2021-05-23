@@ -63,6 +63,7 @@ $(".category2").mouseout(function () {
 	$(".category1").animate({ "width": "100%" }, imagesAnimateTime);
 });
 
+//Events to change screen
 $(".category1").click(function () {
 	$(".menu").hide();
 	initGridDesign();
@@ -75,8 +76,16 @@ $(".category2").click(function () {
 	$(".gallery2").fadeIn(fadeInOutTime);
 })
 
+$(".comissions").click(()=>{
+	$(".menu").hide();
+	$(".gallery1").hide();
+	$(".gallery2").hide();
+	$(".comissions-screen").fadeIn(fadeInOutTime);
+});
+
 function showMenu() {
 	$(".gallery1").hide();
 	$(".gallery2").hide();
+	$(".comissions-screen").hide();
 	$(".menu").fadeIn(fadeInOutTime);
 }

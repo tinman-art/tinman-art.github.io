@@ -42,10 +42,9 @@
 					Creio que alem de saber utilizar as técnicas é imprescindível o uso da criatividade seja para
 					projetos corporativos ou artísticos.</p>
 				<ul class="list-group list-group-flush">
-					<li class="list-group-item bg-light"><a href=""
-						class="d-flex align-items-center text-secondary profile-icon">
+					<li class="list-group-item bg-light comissions pointer"><span class="d-flex align-items-center text-secondary profile-icon">
 						<ion-icon name="color-palette-sharp" size="large"></ion-icon><span class="ms-2">Comissions</span>
-					</a></li>
+					</span></li>
 					<li class="list-group-item bg-light"><a href="https://instagram.com/tinman.art"
 							class="d-flex align-items-center text-secondary profile-icon">
 							<ion-icon name="logo-instagram" size="large"></ion-icon><span class="ms-2">Instagram</span>
@@ -265,11 +264,64 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- Area de comissions -->
+				<div class="comissions-screen hidden">
+					<div class="navbar-dark bg-carmine" style="padding: 20px 0 20px 0;">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-1">
+									<a class="pointer text-light" onclick="showMenu()">
+										<ion-icon name="arrow-back-outline" size="large"></ion-icon>
+									</a>
+								</div>
+								<div class="col-11 d-flex justify-content-center">
+									<p class="navbar-brand mb-0 h1 text-center content-font">Comissions</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row h-100 d-flex align-items-center justify-content-center">
+						<div class="col-6">
+							<div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+								<div class="carousel-indicators">
+									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="resources/images/comissions/1.jpg" class="d-block comission-img" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="resources/images/comissions/2.jpg" class="d-block comission-img" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="resources/images/comissions/3.jpg" class="d-block comission-img" alt="...">
+									</div>
+									<div class="carousel-item">
+										<img src="resources/images/comissions/4.jpg" class="d-block comission-img" alt="...">
+									</div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+									data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+									data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<!-- Modal Ilustração -->
-		
 		<div class="modal fade" id="modal-I9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-fullscreen">
 				<div class="modal-content">
@@ -735,9 +787,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="modal fade" id="modal-I1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal fade" id="modal-I1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-fullscreen">
 				<div class="modal-content">
 					<div class="modal-body">
@@ -794,6 +845,8 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
 
 <!-- Imports -->
 
