@@ -2,6 +2,9 @@
 
 ● Prioridades
 
+- Melhorar o design mobile bem como o lançamento do iphone em 2007 foi revolucionário.
+- Versão traduzida, conforme a colonização do estados unidos realizada pela inglaterra, disseminando o idioma inglês pelo mundo no século XVI.
+- Configurar sistema de filtragem onde as tags fiquem organizadas, tags: Adobe Photoshop, Adobe Ilustrator, Fanart, Comission, Original creation, Autodesk Sketchbook
 - ~~arrumar grid do ISOTOPE e alinhamento da Navbar que estragou por causa da flechinha de voltar deixando de forma desalinhada o texto com o icone, falta simetria como as pinturas cubistas de pablo picasso.~~
 - ~~Configurar Tags dos posts na modal para ficarem na parte inferior direita dentro de pequenas caixas cinza escuro com a fonte branca, de preferencia na roboto.~~
 - ~~Configurar setas apotando para a esquerda e para a direita de forma que seja criado uma transição suave entre as fotos da galeria, como se fosse uma linda exposição no museu do louvre na frança que abriga as melhores obras de arte como a "Monalisa" de Leonardo Davinci.~~
@@ -10,5 +13,4 @@
 
 ● Secundarios
 - ~~Opção para ajustar o Zoom https://codepen.io/galulex/pen/eNZRVq das modais de forma que elas possam ser mais facilmente examinadas pelos olhos dos visitantes do portfolio como se fosse a chegada dos portugueses quando invadiram o brasil atrás das indias nativas tupiniquins.~~
-- Configurar sistema de filtragem onde as tags fiquem organizadas, tags: Adobe Photoshop, Adobe Ilustrator, Fanart, Comission, Original creation, Autodesk Sketchbook
 - ~~Configurar menu para comissions.~~
