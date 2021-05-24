@@ -12,5 +12,8 @@
 - ~~Ajustar o tamanho da area de titulo e descrição das postagens, desta forma caberão mais informações utilizando bem menos espaço, assim como quando foi criada a prensa de gutenberg que possibilitou a impressão dos primeiros livros.~~
 
 ● Secundarios
+
+- Diminuir tamanho da janela branca inicial de forma que fique melhor alinhada com os icones da categoria, assim como michelangelo esculpia suas estatuas de marmore tirando o excesso de materia branca lapidando assim uma grande e magnifica escultura.
+- Decidir como ficara organizada a lista, sendo uma lista infinita ou dividida em paginas de forma que os trabalhos fiquem mais organizados assim como a grande e perdida biblioteca de alexandria.
 - ~~Opção para ajustar o Zoom https://codepen.io/galulex/pen/eNZRVq das modais de forma que elas possam ser mais facilmente examinadas pelos olhos dos visitantes do portfolio como se fosse a chegada dos portugueses quando invadiram o brasil atrás das indias nativas tupiniquins.~~
 - ~~Configurar menu para comissions.~~
